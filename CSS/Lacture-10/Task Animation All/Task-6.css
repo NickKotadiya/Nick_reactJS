@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    background-color: skyblue;
+}
+.map img{
+    margin: 145px;
+    height: 500px;
+    width: 100%;
+}
+.plen img{
+    position: absolute;
+    left: 300px; top: 200px;
+    height: 200px;
+    width: 200px;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes move{
+    /* 0%{
+        left: 0px; top: 0px;
+    } */
+    20%{
+        /* transform: translate(top 310px left 480px) ; */
+        top: 310px; left: 480px;
+    }
+    25%{
+        left: 770px;
+    }
+    50%{
+        top: 20px;
+    }
+    70%{
+        left: 1000px;
+    }
+    95%{
+        top: 350px; left: 1100px;
+    }
+}

@@ -1,0 +1,244 @@
+/************ 1 ************/
+.pagination{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(203,224,221,255);
+    border: 2px solid black;
+}
+.pagination h1{
+    position: absolute;
+    left: 100px;
+}
+.pagination div{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.pagination div span{
+    font-size: 20px;
+}
+
+.pagination div:hover{
+    background-color: gray;
+    box-shadow: 5px 5px 5px grey;
+    background-color:burlywood;
+    color: white;
+    /* transform: translate(10px);
+    transition: 5s; */
+}
+
+/************ 2 ************/
+
+.pagination2{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.pagination2 h1{
+    position: absolute;
+    left: 100px;
+    color: white;
+}
+.pagination2 div{
+    height: 50px;
+    width: 50px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.pagination2 div span{
+    font-size: 20px;
+}
+
+.pagination2 div:hover{
+    background-color:antiquewhite;
+    transform: translate(10px);
+    transition: 0.1s;
+    color: gray;
+}
+
+/************ 3 ************/
+
+.pagination3{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+}
+.pagination3 h1{
+    position: absolute;
+    left: 100px;
+}
+.pagination3 div{
+    height: 50px;
+    width: 90px;
+    background-color: #ff4282;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.pagination3 div span{
+    font-size: 20px;
+}
+
+.pagination3 div:hover{
+    background-color: #ff4282;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    transform: scale(0.5);
+    transition: 2s;
+    /* transform: translate(10px);
+    transition: 0.1s; */
+}
+
+/************ 4 ************/
+
+.pagination4{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+}
+.pagination4 h1{
+    position: absolute;
+    left: 100px;
+}
+.pagination4 div{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: rgb(191, 178, 178);
+    /* border: 2px solid white; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.pagination4 div span{
+    font-size: 20px;
+}
+
+.pagination4 div:hover{
+    background-color: white;
+    color: lightskyblue;
+    border: 3px solid lightblue;
+    box-shadow: 5px 5px 5px gray;
+    transform: rotate(360deg);
+    transition: 2s;
+    /* transform: translate(10px);
+    transition: 0.1s; */
+}
+
+/************ 5 ************/
+
+.pagination5{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238,242,255,255);
+    border: 2px solid black;
+}
+.pagination5 h1{
+    position: absolute;
+    left: 100px;
+}
+.pagination5 div{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.pagination5 div span{
+    font-size: 20px;
+}
+
+.pagination5 div:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/************ 6 ************/
+
+.pagination6{
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(31,178,170,255);
+    border: 2px solid black;
+}
+.pagination6 h1{
+    position: absolute;
+    left: 100px;
+}
+.pagination6 .bog{
+    background-color: white;
+    height: 50px;
+    width: 350px;
+    border-radius: 50px;
+}
+.pagination6 .bog .ro{
+    height: 50px;
+    width: 20px;
+    margin-left: 20px;
+}
+.pagination6 div{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.pagination6 div span{
+    font-size: 20px;
+}
+
+.pagination6 .ro:hover{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    color: white;
+    background-color: rgba(31,178,170,255);
+}

@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    background-color:yellow;
+    height: 740px; 
+}
+.card1{
+    margin: 100px;
+    height: fit-content;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden; 
+}
+.mainimg1{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    /* overflow: hidden; */
+}
+.card1:hover img{
+    transform: scale(1.5);
+    transition: 2s;
+}
+.mainimg1 .text1 p{
+    position: absolute;
+    color:yellow;
+    top: 10px;
+    left: 10px;
+}
+.mainimg1 .text1 h1{
+    position: absolute;
+    color: cyan;
+    top: 59px;
+    font-size: 20px;
+    text-shadow: 20px 15px 10px black;
+}
+.mainimg1 .text1 h2{
+    position: absolute;
+    color:blue;
+    right: 5px;
+    top: 459px;
+    text-shadow: 20px 15px 10px black;
+}
+
+/******************** 2 ***************************/
+
+.card2{
+    margin: 100px;
+    height: fit-content;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden; 
+}
+.mainimg2{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    /* overflow: hidden; */
+}
+.card2:hover img{
+    transform: scale(1.5);
+    transition: 2s;
+}
+.mainimg2 .text2 p{
+    position: absolute;
+    color:yellow;
+    top: 10px;
+    left: 10px;
+}
+.mainimg2 .text2 h1{
+    position: absolute;
+    color:cyan;
+    top: 59px;
+    font-size: 20px;
+    text-shadow: 20px 15px 10px black;
+}
+.mainimg2 .text2 h2{
+    position: absolute;
+    color:blue;
+    right: 5px;
+    top: 459px;
+    text-shadow: 20px 15px 10px black;
+}
+
+/******************** 3 ***************************/
+
+.card3{
+    margin: 100px;
+    height: fit-content;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden; 
+}
+.mainimg3{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    /* overflow: hidden; */
+}
+.card3:hover img{
+    transform: scale(1.5);
+    transition: 2s;
+}
+.mainimg3 .text3 p{
+    position: absolute;
+    color:yellow;
+    top: 10px;
+    left: 10px;
+}
+.mainimg3 .text3 h1{
+    position: absolute;
+    color:cyan;
+    top: 59px;
+    font-size: 20px;
+    text-shadow: 20px 15px 10px black;
+}
+.mainimg3 .text3 h2{
+    position: absolute;
+    color:blue;
+    right: 5px;
+    top: 459px;
+    text-shadow: 20px 15px 10px black;
+}

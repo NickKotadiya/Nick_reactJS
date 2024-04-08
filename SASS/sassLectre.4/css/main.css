@@ -1,0 +1,12 @@
+/* Sass Intepolation Method */
+.sass {
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+}
+.sass:hover {
+  background-color: black;
+}
+
+/* Sass @mixin Method */
+/* Sass @extend Method *//*# sourceMappingURL=main.css.map */

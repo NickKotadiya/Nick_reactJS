@@ -1,0 +1,78 @@
+a:first-child {        /*1, */
+    background-color: yellow;
+    color: green;
+}
+a:nth-child(4) {/*2*/
+    background-color: yellow;
+    color: green;
+}
+input {   /*5*/
+    background-color: yellow;
+    color: green;
+}
+.heading {  /*10*/
+    background-color: yellow;
+    color: green;
+}
+.head { /*12*/
+    background-color: yellow;
+    color: green;
+}
+.h1 { /*16*/
+    background-color: yellow;
+    color: green;
+}
+span p:last-of-type {  /*14,15*/
+    background-color: yellow;
+    color: green;
+}
+h1:nth-child(6) {
+    background-color: yellow;
+    color: green;
+}
+h1:nth-last-child(6) {
+    background-color: yellow;
+    color: green;
+}
+
+section div h1{
+    background-color: yellow;
+    color: green;
+}
+div nav h1{
+    background-color: yellow;
+    color: green;
+}
+h1:nth-last-child(11) {
+    background-color: yellow;
+    color: green;
+}
+div div div h1:nth-child(4)
+{
+    background-color: yellow;
+    color: green;
+}
+div span section :nth-child(5){
+    background-color: yellow;
+    color: green;
+}
+h1:nth-last-child(22){
+    background-color: yellow;
+    color: green;
+}
+h1:nth-child(22){
+    background-color: yellow;
+    color: green;
+}
+h1:nth-child(18){
+    background-color: yellow;
+    color: green;
+}
+div:nth-of-type(2) h1:nth-child(2){
+    background-color: yellow;
+    color: green;
+}
+div:nth-last-child(7) div h1:nth-child(1){
+    background-color: yellow;
+    color: green;
+}

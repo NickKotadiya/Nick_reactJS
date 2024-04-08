@@ -1,0 +1,46 @@
+ .maindiv{
+    height: 500px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.after::after {
+    background-color: white;
+    content: counter(count);
+    counter-reset: count 0;
+    animation-name: counter;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    font-size: 50px;
+  }
+  
+  @keyframes counter {
+    0% {
+      counter-increment: count 0;
+    }
+    10% {
+      counter-increment: count 1;
+    }
+    30% {
+      counter-increment: count 2;
+    }
+    50% {
+      counter-increment: count 3;
+    }
+    70% {
+      counter-increment: count 4;
+    }
+    80% {
+      counter-increment: count 5;
+    }
+    90% {
+      counter-increment: count 6;
+    }
+    100% {
+      counter-increment: count 7;
+    }
+    
+  }

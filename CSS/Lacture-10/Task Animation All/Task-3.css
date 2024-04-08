@@ -1,0 +1,60 @@
+.box2 {
+    margin-top: 300px;
+    margin-left: 500px ;
+    /* margin: 200px; */
+    height: 200px;
+    width: 200px;
+    animation-name: box;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    justify-content: baseline;
+    align-items: center;
+    display: flex;
+}
+
+@keyframes box {
+    0% {
+        height: 180px;
+        width: 180px;
+        transform: scale(10px);
+        border-radius: 10%;
+        background-color: rgb(73, 73, 211);
+        justify-content: baseline;
+        align-items: center;
+        display: flex;
+    }
+
+    40% {
+        height: 120px;
+        width: 120px;
+        transform: scale(20px);
+        border-radius: 40%;
+        background-color: pink;
+        justify-content: baseline;
+        align-items: center;
+        display: flex;
+    }
+
+    70% {
+        height: 80px;
+        width: 80px;
+        transform: scale(50px);
+        border-radius: 70%;
+        background-color: rgb(187, 81, 81);
+        justify-content: baseline;
+        align-items: center;
+        display: flex;
+    }
+
+    100%{
+        height: 50px;
+        width: 50px;
+        transform: scale(100px);
+        border-radius: 100%;
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}
