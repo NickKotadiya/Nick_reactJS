@@ -1,175 +1,121 @@
-/* Javascript Object Method */
-/* is() Method */
+/* javascript object method */
+
+/* isforzen method */
+
+{
+    // let  obj = {key1:56,key2:65,key3:98,key4:99};
+
+    // obj.key1=25
+
+    // delete obj.key1
+
+    // Object.freeze(obj) // freezing the object
+
+    // obj.key1=45
+
+    // delete obj.key2
+
+    // let data=object.isfrozen(obj);
+
+    // console.log(obj);
+}
+
+/* Object.seal() Method */
 
 {
 
-    // let obj = [10, 20, 30, 40]
+// let obj = {key1:56, key2:65, key3:98, key4:100}
+
+// Object.seal(obj)
+
+// delete obj.key1
+
+// console.log(obj);
+
+// let Data Object.isSealed(obj)
+
+// console.log(Data);
+}
+
+/* hasOwn() Method */
+
+{
+
+// let obj = {key1:"javascript", key2:"html", key3: "bootstrap5", key4: "nodejs"}
+
+// let Data = Object.hasOwn(obj, "html")
+
+// console.log(Data);
+
+// console.log(obj.hasOwnProperty("key1"));
+
+}
+/* Object.entries() Method */
+{
+// let obj = {key1:"javascript", key2:"html", key3: "bootstrap5", key4: "nodejs"}
+
+// for (const [key, value] of Object.entries(obj)){
+
+// console.log('This Object Key are ${key} and It's Value is ${value}`);
+// }
+
+// let array = [12,24,15,68,69]
+
+// for (const value of array){
     
-    // let obj2 = [10, 20, 30, 40]
+    // console.log('${value}`);
     
-    // let Is Object.is('obj', 'obj')
-    
-    // console.log(Is);
-    
-    // let Is2 Object.is('obj', 'obj2')
-    
-    // console.log(Is2);
-    
-    // let Is3 = Object.is([],[])
-    
-    // console.log(Is3);
-    
-    }
-    
-    /* Object.getownProperty Names() Method */
-    
+    // }
+}
+    /* Object.keys() */
+
+
     {
+
+        // let obj = {key1:"javascript", key2: "html", key3: "bootstrap5", key4:"nodejs"}
         
-        // const object1 = {
-    
+        // let Data = Object.keys(obj)
         
-        // a: 1,
-        // b: 2,
-        // c: 3,
+        // console.log(Data);
         
-        // };
-    
-        // console.log(Object.getOwnProperty Names (object1));
-    
-        // console.log(Object.keys(object1));
-      
-        }
-    
-        /* Object.fromEntries() Method*/
-     
+    }
+        
+        /* Object.values() Method */
+
         {
-       
-        // let DataEntries Object.fromEntries(obj)
-    
-        // let obj =new Map([["option-1", 20], ["option-2", 30]])
-    
-        // let DataEntries Object.fromEntries(obj)
-    
-    // console.log(DataEntries);
-    
-    }
-    
-    /* Object.DefineProperties() Method */
-    
-    {
-    
-    // let object = {}
-    
-    // let Props2 = Object.defineProperties(
-    
-    // object, {
-    
-    // obj1:{
-    
-    
-    //name: "Object1",
-    
-    //value: 560
-    
-    // },
-    
-    //obj2:{
-    
-    
-    //value: 100
-    
-    // }
-    // }
-    
-    //)
-    
-    // console.log(object);
-    
-    // let obj = {
-        
-        //name: "Object",
-        
-        
-        //value : 20
-        
-        // }
-    
-        // let Props Object.defineProperties(obj, {})
-        
-        // console.log(obj);
-        
+
+        // let obj = {key1:"javascript", key2:"html", key3: "bootstrap5", key4:"nodejs"}
+
+        // let Data Object.values (obj)
+
+        // console.log(Data):
         }
-        
-        /* Object.Prototype Method */
-    
-    {
-    
-    // let obj = []
-    
-    // let obj1 = {key1:20,key2:30, key3:50, key4:100}
-    
-    // console.log(obj1.key1);
-    // let DataObject Object.create(obj1)
-    
-    // console.log(DataObject.key2);
-    
-    // let Protoobject = Object.getPrototypeof(DataObject)
-    
-    // console.log(ProtoObject obj1);
-    
-    }
-    
-    /* Javascript Call Back Function */
-    
-    {
-    
-    // function(){}
-    
-    // function sayHello(){
-    
-    // console.log('Hello');
-    
-    // }
-    
-    // function sayHi(){
-    
-    // console.log("Hi")
-    
-    // }
-    
-    // function sum(a, b, callback) {
-    
-    // callback()
-    
-    // return console.log(a + b)
-    
-    // }
-    
-    // console.log(sum (10, 20, sayHello));
-    // console.log(sum(30 40, sayHi));
-     }
-    
-    
-    /* Javascript arrow Function */
-    
-    // function foo(){
-    
-    // return console.log("This is basic function!");
-    
-    // }
-    
-    // foo()
-    // const foo = () => {return console.log('This is Arrow Funtion');}
-    // foo()
-    
-    // const foos = () => console.log("This is Arrow Function");
-    
-    // foos()
-    
-    // const fo = a => a + a
-    
-    // console.log(fo(10));
-    
-    // const fool = (a, b) => a + b
-    
-    // console.log(fool (10,20));
+
+    /* Object.groupBy() */
+
+{
+// let Grosserys = [
+// name:"potato", type: "vegetable", price: 40, quntity:25},
+// {name:"ladyfingures", type: "vegetable", price:20, quntity:30},
+// {name:"mango", type:"fruit", price: 1200, quntity:5},
+// {name:"orange", type:"fruit", price: 200, quntity:0},
+// {name:"fish", type: "meat", price: 2000, quntity:100}
+// ]
+
+// console.log(Grosserys);
+// let Data Object.groupBy(Grosserys, ({name}) => name)
+
+// console.log(Data);
+
+// let Data1 = Object.groupBy(Grosserys, ({type}) => type)
+
+// console.log(Data1);
+
+// function Stock({quntity}){
+// return quntity > 10 ? "enough Stock": "Restock" 
+//}
+
+// let data3=object.groupBy(grosserys,stock)
+// console.log(data3);
+
+ }
