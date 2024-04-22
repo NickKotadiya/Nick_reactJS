@@ -42,7 +42,7 @@ console.log(dom8);
 
 //queryselector and queryselectorall
 
-let data1=document.querySelector('h1')
+let data1=document.querySelector('h1') 
 
 console.log(data1);
 
