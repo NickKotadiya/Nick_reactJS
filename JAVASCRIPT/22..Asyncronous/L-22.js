@@ -2,97 +2,98 @@
 
 // Apply Method
 
-// const human = {
-//     firstName: "jones",
-//     lastName: "walker",
-//     age: 55
-// }
+{
+//     const human = {
+//         firstName: "jones",
+//         lastName: "walker",
+//         age: 55
+//     }
 
-// const person = {
-//     firstName: "Virat",
-//     lastName: "Kholi",
-// }
+//     const person = {
+//         firstName: "Virat",
+//         lastName: "Kholi",
+//     }
 
-// function intro(message , pro){
-//     console.log(${message} My FirstName is ${this.firstName} and  LastName is ${this.lastName} ${pro});
-// }
+//     function intro(message, pro) {
+//         console.log(${ message }My FirstName is ${ this.firstName } and LastName is ${ this.lastName } ${ pro });
+//     }
 
-// console.log(intro());
+//     console.log(intro());
 
-// let result = intro.apply( person , ["Hi" , "I am Cricketer"]);
-// console.log(result);
-
+//     let result = intro.apply(person, ["Hi", "I am Cricketer"]);
+//     console.log(result);
+ }
 // Call Method
 
-{
-    // function sum( a , b){
-    //     return a + b
-    // }
+// {
+//     function sum(a, b) {
+//         return a + b
+//     }
 
-    // let result = sum.call( null , 10 , 20 )
-    // console.log(result);
-}
+//     let result = sum.call(null, 10, 20)
+//     console.log(result);
+// }
 
-{
-    // let human  = {
-    //     firstName: "john",
-    //     lastName: "walker",
-    //     age: 55
-    // }
+// {
+//     let human = {
+//         firstName: "john",
+//         lastName: "walker",
+//         age: 55
+//     }
 
-    // function intro(message){
-    //     console.log(message + this.firstName + this.lastName);
-    // }
+//     function intro(message) {
+//         console.log(message + this.firstName + this.lastName);
+//     }
 
-    // let result = intro.call(human , "hi")
-     
-    // console.log(result);
-}
+//     let result = intro.call(human, "hi")
 
-// bind() method
+//     console.log(result);
+// }
 
-{
-    // const human = {
-    //     firstName: "john",
-    //     lastName: "walker",
-    //     intro:function (){
-    //         console.log(${this.firstName} ${this.lastName});
-    //     }
-    // }
+// // bind() method
 
-    // const person = {
-    //     firstName: "rohit",
-    //     lastName: "sharma"
-    // }
+// {
+//     const human = {
+//         firstName: "john",
+//         lastName: "walker",
+//         intro: function () {
+//             console.log(${ this.firstName } ${ this.lastName });
+//         }
+//     }
 
-    // let result = human.intro.bind(person)
-    // console.log(result());
-}
+//     const person = {
+//         firstName: "rohit",
+//         lastName: "sharma"
+//     }
 
-// Asyncronous Function
+//     let result = human.intro.bind(person)
+//     console.log(result());
+// }
 
-// setInterval
-// setTimeOut
-// clearInterval
-// clearTimeout
+// // Asyncronous Function
 
-// SetTimeout
-// setTimeout(multi , 4000 , arg1 , arg2 , argN......)
+// // setInterval
+// // setTimeOut
+// // clearInterval
+// // clearTimeout
 
-{
-    // setTimeout(() => console.log("Hello") , 5000)
+// // SetTimeout
+// // setTimeout(multi , 4000 , arg1 , arg2 , argN......)
 
-    // setTimeout(() => {
-    //     console.log("hello");
-    // } , 5000)
-    // setInterval(() => console.log("Hi") , 3000)
-}
+// {
+//     setTimeout(() => console.log("Hello"), 5000)
 
-{
-    // function multi(){
-    //     console.log("setTimeOut");
-    // }
+//     setTimeout(() => {
+//         console.log("hello");
+//     }, 5000)
+//     setInterval(() => console.log("Hi"), 3000)
+// }
 
-    // setTimeout( multi , 4000 )
-    // console.log("After setTimeout");
-}
+// {
+//     function multi() {
+//         console.log("setTimeOut");
+//     }
+
+//     setTimeout(multi, 4000)
+//     console.log("After setTimeout");
+// }
