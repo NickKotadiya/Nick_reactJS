@@ -73,6 +73,6 @@ for (let i=0; i<fruits.length;i++)
 
 
 /* 55. JavaScript Conditional Operator */ 
-let age = 16;
-let canVote = (age >=  18) ? "No" : "Yes";
+let age = 18;
+let canVote = (age >=  18) ? "Yes" : "No";
 console.log(canVote);
