@@ -52,18 +52,18 @@ slideToggle
 // })
 
 
-// $(function(){
-//   $('#button1').click(function(){
-//     $('#heading').hide()
-//   })
-// })
+$(function(){
+  $('#button1').click(function(){
+    $('#heading').hide()
+  })
+})
 
 
-// $(function(){
-//   $('#button2').dblclick(function(){
-//     $('#heading').show()
-//   })
-// })
+$(function(){
+  $('#button2').dblclick(function(){
+    $('#heading').show()
+  })
+})
 
 
 $(function(){

@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+/********** 1 **********/
+.box {
+    display: flex;
+    justify-content: center;
+    border: 2px solid greenyellow;
+    margin-top: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/********** 2 **********/
+.box2 {
+    background-color: #0080ff;
+    color: #0080ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/********** 3 **********/
+.top {
+    height: 40px;
+}
+.box3-1 {
+    background-color: #1e9ee5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3-2{
+    background-color: #008a00;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3-3{
+    background-color: #004ff1;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3-4{
+    background-color: #6901fe;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3-5{
+    background-color: #ab00ff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3-6{
+    background-color: #dc0071;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3-7{
+    background-color: #a20025;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/********** 4 **********/
+.Aaa{
+    /* height: 70px; */
+    background-color: #e4e1ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Apl22{
+    background-color: #e4e1ea;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box11{
+    border: 1px solid black;
+}
+.box13{
+    border: 1px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+.box201{
+    background-color:#e4e1ea;
+    display: flex;
+    border: 1px solid rgb(169, 165, 165);
+    color:rgb(97, 95, 95);
+    height:55px;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top{
+    height: 30px;
+}
+
+.h1{
+color: #0080ff;
 }
